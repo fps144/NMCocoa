@@ -15,6 +15,22 @@
 		656B3E87217DA41C00F2BDE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 656B3E86217DA41C00F2BDE6 /* main.m */; };
 		656B3E91217DA41C00F2BDE6 /* NMCocoaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 656B3E90217DA41C00F2BDE6 /* NMCocoaTests.m */; };
 		656B3E9C217DA41C00F2BDE6 /* NMCocoaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 656B3E9B217DA41C00F2BDE6 /* NMCocoaUITests.m */; };
+		656B3EAF217DA84800F2BDE6 /* UIView+NMCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 656B3EAE217DA84800F2BDE6 /* UIView+NMCocoa.m */; };
+		656B3EB2217DA86100F2BDE6 /* UIImageView+NMCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 656B3EB1217DA86100F2BDE6 /* UIImageView+NMCocoa.m */; };
+		656B3EB5217DA8A800F2BDE6 /* UIViewController+NMCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 656B3EB4217DA8A800F2BDE6 /* UIViewController+NMCocoa.m */; };
+		656B3EB8217DAB8400F2BDE6 /* UIImage+NMCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 656B3EB7217DAB8400F2BDE6 /* UIImage+NMCocoa.m */; };
+		656B3EBB217DB44E00F2BDE6 /* UIFont+NMCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 656B3EBA217DB44E00F2BDE6 /* UIFont+NMCocoa.m */; };
+		656B3EBE217DB4EF00F2BDE6 /* UIColor+NMCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 656B3EBD217DB4EF00F2BDE6 /* UIColor+NMCocoa.m */; };
+		656B3EC1217DB53900F2BDE6 /* UIButton+NMCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 656B3EC0217DB53900F2BDE6 /* UIButton+NMCocoa.m */; };
+		656B3EC4217DB87E00F2BDE6 /* NSAttributedString+NMCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 656B3EC3217DB87E00F2BDE6 /* NSAttributedString+NMCocoa.m */; };
+		656B3EC7217DBA0300F2BDE6 /* NSString+NMCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 656B3EC6217DBA0300F2BDE6 /* NSString+NMCocoa.m */; };
+		656B3ECA217DBA3D00F2BDE6 /* NSData+NMCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 656B3EC9217DBA3D00F2BDE6 /* NSData+NMCocoa.m */; };
+		656B3ECD217DBA4800F2BDE6 /* NSDate+NMCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 656B3ECC217DBA4800F2BDE6 /* NSDate+NMCocoa.m */; };
+		656B3ED0217DBA6700F2BDE6 /* NSDictionary+NMCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 656B3ECF217DBA6700F2BDE6 /* NSDictionary+NMCocoa.m */; };
+		656B3ED3217DBA7C00F2BDE6 /* NSError+NMCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 656B3ED2217DBA7C00F2BDE6 /* NSError+NMCocoa.m */; };
+		656B3ED6217DBA8D00F2BDE6 /* NSUserDefaults+NMCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 656B3ED5217DBA8D00F2BDE6 /* NSUserDefaults+NMCocoa.m */; };
+		656B3ED9217DBADF00F2BDE6 /* NSFileManager+NMCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 656B3ED8217DBADF00F2BDE6 /* NSFileManager+NMCocoa.m */; };
+		656B3EDD217DC2F800F2BDE6 /* NSObject+NMCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 656B3EDC217DC2F800F2BDE6 /* NSObject+NMCocoa.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +67,38 @@
 		656B3E97217DA41C00F2BDE6 /* NMCocoaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NMCocoaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		656B3E9B217DA41C00F2BDE6 /* NMCocoaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NMCocoaUITests.m; sourceTree = "<group>"; };
 		656B3E9D217DA41C00F2BDE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		656B3EAD217DA84800F2BDE6 /* UIView+NMCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+NMCocoa.h"; sourceTree = "<group>"; };
+		656B3EAE217DA84800F2BDE6 /* UIView+NMCocoa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+NMCocoa.m"; sourceTree = "<group>"; };
+		656B3EB0217DA86100F2BDE6 /* UIImageView+NMCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+NMCocoa.h"; sourceTree = "<group>"; };
+		656B3EB1217DA86100F2BDE6 /* UIImageView+NMCocoa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+NMCocoa.m"; sourceTree = "<group>"; };
+		656B3EB3217DA8A800F2BDE6 /* UIViewController+NMCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NMCocoa.h"; sourceTree = "<group>"; };
+		656B3EB4217DA8A800F2BDE6 /* UIViewController+NMCocoa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NMCocoa.m"; sourceTree = "<group>"; };
+		656B3EB6217DAB8400F2BDE6 /* UIImage+NMCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+NMCocoa.h"; sourceTree = "<group>"; };
+		656B3EB7217DAB8400F2BDE6 /* UIImage+NMCocoa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+NMCocoa.m"; sourceTree = "<group>"; };
+		656B3EB9217DB44E00F2BDE6 /* UIFont+NMCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+NMCocoa.h"; sourceTree = "<group>"; };
+		656B3EBA217DB44E00F2BDE6 /* UIFont+NMCocoa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIFont+NMCocoa.m"; sourceTree = "<group>"; };
+		656B3EBC217DB4EF00F2BDE6 /* UIColor+NMCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+NMCocoa.h"; sourceTree = "<group>"; };
+		656B3EBD217DB4EF00F2BDE6 /* UIColor+NMCocoa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+NMCocoa.m"; sourceTree = "<group>"; };
+		656B3EBF217DB53900F2BDE6 /* UIButton+NMCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+NMCocoa.h"; sourceTree = "<group>"; };
+		656B3EC0217DB53900F2BDE6 /* UIButton+NMCocoa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+NMCocoa.m"; sourceTree = "<group>"; };
+		656B3EC2217DB87E00F2BDE6 /* NSAttributedString+NMCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+NMCocoa.h"; sourceTree = "<group>"; };
+		656B3EC3217DB87E00F2BDE6 /* NSAttributedString+NMCocoa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+NMCocoa.m"; sourceTree = "<group>"; };
+		656B3EC5217DBA0300F2BDE6 /* NSString+NMCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+NMCocoa.h"; sourceTree = "<group>"; };
+		656B3EC6217DBA0300F2BDE6 /* NSString+NMCocoa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+NMCocoa.m"; sourceTree = "<group>"; };
+		656B3EC8217DBA3D00F2BDE6 /* NSData+NMCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+NMCocoa.h"; sourceTree = "<group>"; };
+		656B3EC9217DBA3D00F2BDE6 /* NSData+NMCocoa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+NMCocoa.m"; sourceTree = "<group>"; };
+		656B3ECB217DBA4800F2BDE6 /* NSDate+NMCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+NMCocoa.h"; sourceTree = "<group>"; };
+		656B3ECC217DBA4800F2BDE6 /* NSDate+NMCocoa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+NMCocoa.m"; sourceTree = "<group>"; };
+		656B3ECE217DBA6700F2BDE6 /* NSDictionary+NMCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+NMCocoa.h"; sourceTree = "<group>"; };
+		656B3ECF217DBA6700F2BDE6 /* NSDictionary+NMCocoa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+NMCocoa.m"; sourceTree = "<group>"; };
+		656B3ED1217DBA7C00F2BDE6 /* NSError+NMCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSError+NMCocoa.h"; sourceTree = "<group>"; };
+		656B3ED2217DBA7C00F2BDE6 /* NSError+NMCocoa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSError+NMCocoa.m"; sourceTree = "<group>"; };
+		656B3ED4217DBA8D00F2BDE6 /* NSUserDefaults+NMCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+NMCocoa.h"; sourceTree = "<group>"; };
+		656B3ED5217DBA8D00F2BDE6 /* NSUserDefaults+NMCocoa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+NMCocoa.m"; sourceTree = "<group>"; };
+		656B3ED7217DBADF00F2BDE6 /* NSFileManager+NMCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+NMCocoa.h"; sourceTree = "<group>"; };
+		656B3ED8217DBADF00F2BDE6 /* NSFileManager+NMCocoa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+NMCocoa.m"; sourceTree = "<group>"; };
+		656B3EDB217DC2F800F2BDE6 /* NSObject+NMCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+NMCocoa.h"; sourceTree = "<group>"; };
+		656B3EDC217DC2F800F2BDE6 /* NSObject+NMCocoa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NMCocoa.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +149,7 @@
 		656B3E76217DA41A00F2BDE6 /* NMCocoa */ = {
 			isa = PBXGroup;
 			children = (
+				656B3EA9217DA45100F2BDE6 /* Cocoa */,
 				656B3E77217DA41A00F2BDE6 /* AppDelegate.h */,
 				656B3E78217DA41A00F2BDE6 /* AppDelegate.m */,
 				656B3E7A217DA41A00F2BDE6 /* ViewController.h */,
@@ -130,6 +179,77 @@
 				656B3E9D217DA41C00F2BDE6 /* Info.plist */,
 			);
 			path = NMCocoaUITests;
+			sourceTree = "<group>";
+		};
+		656B3EA9217DA45100F2BDE6 /* Cocoa */ = {
+			isa = PBXGroup;
+			children = (
+				656B3EDA217DBF2200F2BDE6 /* Widget */,
+				656B3EAC217DA6C400F2BDE6 /* Category */,
+			);
+			path = Cocoa;
+			sourceTree = "<group>";
+		};
+		656B3EAA217DA55400F2BDE6 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				656B3EC2217DB87E00F2BDE6 /* NSAttributedString+NMCocoa.h */,
+				656B3EC3217DB87E00F2BDE6 /* NSAttributedString+NMCocoa.m */,
+				656B3EC8217DBA3D00F2BDE6 /* NSData+NMCocoa.h */,
+				656B3EC9217DBA3D00F2BDE6 /* NSData+NMCocoa.m */,
+				656B3ECB217DBA4800F2BDE6 /* NSDate+NMCocoa.h */,
+				656B3ECC217DBA4800F2BDE6 /* NSDate+NMCocoa.m */,
+				656B3ECE217DBA6700F2BDE6 /* NSDictionary+NMCocoa.h */,
+				656B3ECF217DBA6700F2BDE6 /* NSDictionary+NMCocoa.m */,
+				656B3ED1217DBA7C00F2BDE6 /* NSError+NMCocoa.h */,
+				656B3ED2217DBA7C00F2BDE6 /* NSError+NMCocoa.m */,
+				656B3ED7217DBADF00F2BDE6 /* NSFileManager+NMCocoa.h */,
+				656B3ED8217DBADF00F2BDE6 /* NSFileManager+NMCocoa.m */,
+				656B3EDB217DC2F800F2BDE6 /* NSObject+NMCocoa.h */,
+				656B3EDC217DC2F800F2BDE6 /* NSObject+NMCocoa.m */,
+				656B3EC5217DBA0300F2BDE6 /* NSString+NMCocoa.h */,
+				656B3EC6217DBA0300F2BDE6 /* NSString+NMCocoa.m */,
+				656B3ED4217DBA8D00F2BDE6 /* NSUserDefaults+NMCocoa.h */,
+				656B3ED5217DBA8D00F2BDE6 /* NSUserDefaults+NMCocoa.m */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		656B3EAB217DA57100F2BDE6 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				656B3EBF217DB53900F2BDE6 /* UIButton+NMCocoa.h */,
+				656B3EC0217DB53900F2BDE6 /* UIButton+NMCocoa.m */,
+				656B3EBC217DB4EF00F2BDE6 /* UIColor+NMCocoa.h */,
+				656B3EBD217DB4EF00F2BDE6 /* UIColor+NMCocoa.m */,
+				656B3EB9217DB44E00F2BDE6 /* UIFont+NMCocoa.h */,
+				656B3EBA217DB44E00F2BDE6 /* UIFont+NMCocoa.m */,
+				656B3EB6217DAB8400F2BDE6 /* UIImage+NMCocoa.h */,
+				656B3EB7217DAB8400F2BDE6 /* UIImage+NMCocoa.m */,
+				656B3EB0217DA86100F2BDE6 /* UIImageView+NMCocoa.h */,
+				656B3EB1217DA86100F2BDE6 /* UIImageView+NMCocoa.m */,
+				656B3EAD217DA84800F2BDE6 /* UIView+NMCocoa.h */,
+				656B3EAE217DA84800F2BDE6 /* UIView+NMCocoa.m */,
+				656B3EB3217DA8A800F2BDE6 /* UIViewController+NMCocoa.h */,
+				656B3EB4217DA8A800F2BDE6 /* UIViewController+NMCocoa.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		656B3EAC217DA6C400F2BDE6 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				656B3EAB217DA57100F2BDE6 /* UIKit */,
+				656B3EAA217DA55400F2BDE6 /* Foundation */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		656B3EDA217DBF2200F2BDE6 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Widget;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +382,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				656B3EDD217DC2F800F2BDE6 /* NSObject+NMCocoa.m in Sources */,
 				656B3E7C217DA41A00F2BDE6 /* ViewController.m in Sources */,
+				656B3ED9217DBADF00F2BDE6 /* NSFileManager+NMCocoa.m in Sources */,
 				656B3E87217DA41C00F2BDE6 /* main.m in Sources */,
+				656B3ED3217DBA7C00F2BDE6 /* NSError+NMCocoa.m in Sources */,
+				656B3ED6217DBA8D00F2BDE6 /* NSUserDefaults+NMCocoa.m in Sources */,
+				656B3EB2217DA86100F2BDE6 /* UIImageView+NMCocoa.m in Sources */,
+				656B3EBE217DB4EF00F2BDE6 /* UIColor+NMCocoa.m in Sources */,
+				656B3EC1217DB53900F2BDE6 /* UIButton+NMCocoa.m in Sources */,
+				656B3EC4217DB87E00F2BDE6 /* NSAttributedString+NMCocoa.m in Sources */,
+				656B3EBB217DB44E00F2BDE6 /* UIFont+NMCocoa.m in Sources */,
+				656B3ED0217DBA6700F2BDE6 /* NSDictionary+NMCocoa.m in Sources */,
 				656B3E79217DA41A00F2BDE6 /* AppDelegate.m in Sources */,
+				656B3EC7217DBA0300F2BDE6 /* NSString+NMCocoa.m in Sources */,
+				656B3EB8217DAB8400F2BDE6 /* UIImage+NMCocoa.m in Sources */,
+				656B3EAF217DA84800F2BDE6 /* UIView+NMCocoa.m in Sources */,
+				656B3EB5217DA8A800F2BDE6 /* UIViewController+NMCocoa.m in Sources */,
+				656B3ECA217DBA3D00F2BDE6 /* NSData+NMCocoa.m in Sources */,
+				656B3ECD217DBA4800F2BDE6 /* NSDate+NMCocoa.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,7 +578,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = NMCocoa.NMCocoa;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nanmen.NMCocoa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -459,7 +595,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = NMCocoa.NMCocoa;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nanmen.NMCocoa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
