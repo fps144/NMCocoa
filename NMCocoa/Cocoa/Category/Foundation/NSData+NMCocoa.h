@@ -12,6 +12,18 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface NSData (NMCocoa)
 
+/**
+ * Returns an NSData object from base64 encoded string
+ *
+ * @param base64EncodedString The encoded string
+ */
++ (NSData *)dataWithBase64EncodedString:(NSString *)base64EncodedString;
+
+/**
+ * Returns an NSString object for base64 encoded.
+ */
++ (NSString *)base64EncodedString;
+
 @end
 
 NS_ASSUME_NONNULL_END
