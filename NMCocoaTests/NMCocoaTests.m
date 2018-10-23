@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "NMCocoa.h"
 
 @interface NMCocoaTests : XCTestCase
 

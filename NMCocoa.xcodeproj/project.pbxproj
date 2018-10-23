@@ -27,9 +27,24 @@
 		656B3ECA217DBA3D00F2BDE6 /* NSData+NMCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 656B3EC9217DBA3D00F2BDE6 /* NSData+NMCocoa.m */; };
 		656B3ECD217DBA4800F2BDE6 /* NSDate+NMCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 656B3ECC217DBA4800F2BDE6 /* NSDate+NMCocoa.m */; };
 		656B3ED3217DBA7C00F2BDE6 /* NSError+NMCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 656B3ED2217DBA7C00F2BDE6 /* NSError+NMCocoa.m */; };
-		656B3ED6217DBA8D00F2BDE6 /* NSUserDefaults+NMCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 656B3ED5217DBA8D00F2BDE6 /* NSUserDefaults+NMCocoa.m */; };
 		656B3ED9217DBADF00F2BDE6 /* NSFileManager+NMCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 656B3ED8217DBADF00F2BDE6 /* NSFileManager+NMCocoa.m */; };
 		656B3EDD217DC2F800F2BDE6 /* NSObject+NMCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 656B3EDC217DC2F800F2BDE6 /* NSObject+NMCocoa.m */; };
+		656B3EF4217F3AAD00F2BDE6 /* NMCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 656B3EF1217F315E00F2BDE6 /* NMCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		656B3EF5217F3AAD00F2BDE6 /* UIButton+NMCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 656B3EBF217DB53900F2BDE6 /* UIButton+NMCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		656B3EF6217F3AAD00F2BDE6 /* UIColor+NMCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 656B3EBC217DB4EF00F2BDE6 /* UIColor+NMCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		656B3EF7217F3AAD00F2BDE6 /* UIFont+NMCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 656B3EB9217DB44E00F2BDE6 /* UIFont+NMCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		656B3EF8217F3AAD00F2BDE6 /* UIImage+NMCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 656B3EB6217DAB8400F2BDE6 /* UIImage+NMCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		656B3EF9217F3AAD00F2BDE6 /* UIImageView+NMCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 656B3EB0217DA86100F2BDE6 /* UIImageView+NMCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		656B3EFA217F3AAD00F2BDE6 /* UIView+NMCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 656B3EAD217DA84800F2BDE6 /* UIView+NMCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		656B3EFB217F3AAD00F2BDE6 /* UIViewController+NMCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 656B3EB3217DA8A800F2BDE6 /* UIViewController+NMCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		656B3EFC217F3AAD00F2BDE6 /* NSAttributedString+NMCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 656B3EC2217DB87E00F2BDE6 /* NSAttributedString+NMCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		656B3EFD217F3AAD00F2BDE6 /* NSData+NMCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 656B3EC8217DBA3D00F2BDE6 /* NSData+NMCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		656B3EFE217F3AAD00F2BDE6 /* NSDate+NMCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 656B3ECB217DBA4800F2BDE6 /* NSDate+NMCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		656B3EFF217F3AAD00F2BDE6 /* NSError+NMCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 656B3ED1217DBA7C00F2BDE6 /* NSError+NMCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		656B3F00217F3AAD00F2BDE6 /* NSFileManager+NMCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 656B3ED7217DBADF00F2BDE6 /* NSFileManager+NMCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		656B3F01217F3AAD00F2BDE6 /* NSObject+NMCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 656B3EDB217DC2F800F2BDE6 /* NSObject+NMCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		656B3F02217F3AAD00F2BDE6 /* NSString+NMCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 656B3EC5217DBA0300F2BDE6 /* NSString+NMCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		656B3F03217F3ACA00F2BDE6 /* NMMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 656B3EF2217F3A5C00F2BDE6 /* NMMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,12 +105,12 @@
 		656B3ECC217DBA4800F2BDE6 /* NSDate+NMCocoa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+NMCocoa.m"; sourceTree = "<group>"; };
 		656B3ED1217DBA7C00F2BDE6 /* NSError+NMCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSError+NMCocoa.h"; sourceTree = "<group>"; };
 		656B3ED2217DBA7C00F2BDE6 /* NSError+NMCocoa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSError+NMCocoa.m"; sourceTree = "<group>"; };
-		656B3ED4217DBA8D00F2BDE6 /* NSUserDefaults+NMCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+NMCocoa.h"; sourceTree = "<group>"; };
-		656B3ED5217DBA8D00F2BDE6 /* NSUserDefaults+NMCocoa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+NMCocoa.m"; sourceTree = "<group>"; };
 		656B3ED7217DBADF00F2BDE6 /* NSFileManager+NMCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+NMCocoa.h"; sourceTree = "<group>"; };
 		656B3ED8217DBADF00F2BDE6 /* NSFileManager+NMCocoa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+NMCocoa.m"; sourceTree = "<group>"; };
 		656B3EDB217DC2F800F2BDE6 /* NSObject+NMCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+NMCocoa.h"; sourceTree = "<group>"; };
 		656B3EDC217DC2F800F2BDE6 /* NSObject+NMCocoa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NMCocoa.m"; sourceTree = "<group>"; };
+		656B3EF1217F315E00F2BDE6 /* NMCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NMCocoa.h; sourceTree = "<group>"; };
+		656B3EF2217F3A5C00F2BDE6 /* NMMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NMMacro.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +196,8 @@
 		656B3EA9217DA45100F2BDE6 /* Cocoa */ = {
 			isa = PBXGroup;
 			children = (
+				656B3EF1217F315E00F2BDE6 /* NMCocoa.h */,
+				656B3EF2217F3A5C00F2BDE6 /* NMMacro.h */,
 				656B3EDA217DBF2200F2BDE6 /* Widget */,
 				656B3EAC217DA6C400F2BDE6 /* Category */,
 			);
@@ -204,8 +221,6 @@
 				656B3EDC217DC2F800F2BDE6 /* NSObject+NMCocoa.m */,
 				656B3EC5217DBA0300F2BDE6 /* NSString+NMCocoa.h */,
 				656B3EC6217DBA0300F2BDE6 /* NSString+NMCocoa.m */,
-				656B3ED4217DBA8D00F2BDE6 /* NSUserDefaults+NMCocoa.h */,
-				656B3ED5217DBA8D00F2BDE6 /* NSUserDefaults+NMCocoa.m */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -249,11 +264,38 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		656B3EF3217F3A9500F2BDE6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				656B3EF4217F3AAD00F2BDE6 /* NMCocoa.h in Headers */,
+				656B3F03217F3ACA00F2BDE6 /* NMMacro.h in Headers */,
+				656B3EF5217F3AAD00F2BDE6 /* UIButton+NMCocoa.h in Headers */,
+				656B3EF6217F3AAD00F2BDE6 /* UIColor+NMCocoa.h in Headers */,
+				656B3EF7217F3AAD00F2BDE6 /* UIFont+NMCocoa.h in Headers */,
+				656B3EF8217F3AAD00F2BDE6 /* UIImage+NMCocoa.h in Headers */,
+				656B3EF9217F3AAD00F2BDE6 /* UIImageView+NMCocoa.h in Headers */,
+				656B3EFA217F3AAD00F2BDE6 /* UIView+NMCocoa.h in Headers */,
+				656B3EFB217F3AAD00F2BDE6 /* UIViewController+NMCocoa.h in Headers */,
+				656B3EFC217F3AAD00F2BDE6 /* NSAttributedString+NMCocoa.h in Headers */,
+				656B3EFD217F3AAD00F2BDE6 /* NSData+NMCocoa.h in Headers */,
+				656B3EFE217F3AAD00F2BDE6 /* NSDate+NMCocoa.h in Headers */,
+				656B3EFF217F3AAD00F2BDE6 /* NSError+NMCocoa.h in Headers */,
+				656B3F00217F3AAD00F2BDE6 /* NSFileManager+NMCocoa.h in Headers */,
+				656B3F01217F3AAD00F2BDE6 /* NSObject+NMCocoa.h in Headers */,
+				656B3F02217F3AAD00F2BDE6 /* NSString+NMCocoa.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		656B3E73217DA41A00F2BDE6 /* NMCocoa */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 656B3EA0217DA41C00F2BDE6 /* Build configuration list for PBXNativeTarget "NMCocoa" */;
 			buildPhases = (
+				656B3EF3217F3A9500F2BDE6 /* Headers */,
 				656B3E70217DA41A00F2BDE6 /* Sources */,
 				656B3E71217DA41A00F2BDE6 /* Frameworks */,
 				656B3E72217DA41A00F2BDE6 /* Resources */,
@@ -382,7 +424,6 @@
 				656B3ED9217DBADF00F2BDE6 /* NSFileManager+NMCocoa.m in Sources */,
 				656B3E87217DA41C00F2BDE6 /* main.m in Sources */,
 				656B3ED3217DBA7C00F2BDE6 /* NSError+NMCocoa.m in Sources */,
-				656B3ED6217DBA8D00F2BDE6 /* NSUserDefaults+NMCocoa.m in Sources */,
 				656B3EB2217DA86100F2BDE6 /* UIImageView+NMCocoa.m in Sources */,
 				656B3EBE217DB4EF00F2BDE6 /* UIColor+NMCocoa.m in Sources */,
 				656B3EC1217DB53900F2BDE6 /* UIButton+NMCocoa.m in Sources */,
