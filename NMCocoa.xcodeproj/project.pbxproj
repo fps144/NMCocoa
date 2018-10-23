@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4DF36492217F62C20091F8DB /* NMTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DF36490217F62C20091F8DB /* NMTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DF36493217F62C20091F8DB /* NMTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF36491217F62C20091F8DB /* NMTextField.m */; };
 		656B3E79217DA41A00F2BDE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 656B3E78217DA41A00F2BDE6 /* AppDelegate.m */; };
 		656B3E7C217DA41A00F2BDE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 656B3E7B217DA41A00F2BDE6 /* ViewController.m */; };
 		656B3E7F217DA41A00F2BDE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 656B3E7D217DA41A00F2BDE6 /* Main.storyboard */; };
@@ -66,6 +68,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4DF36490217F62C20091F8DB /* NMTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMTextField.h; sourceTree = "<group>"; };
+		4DF36491217F62C20091F8DB /* NMTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMTextField.m; sourceTree = "<group>"; };
 		656B3E74217DA41A00F2BDE6 /* NMCocoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NMCocoa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		656B3E77217DA41A00F2BDE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		656B3E78217DA41A00F2BDE6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -140,6 +144,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4DF3648F217F62C20091F8DB /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				4DF36490217F62C20091F8DB /* NMTextField.h */,
+				4DF36491217F62C20091F8DB /* NMTextField.m */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
 		656B3E6B217DA41A00F2BDE6 = {
 			isa = PBXGroup;
 			children = (
@@ -201,7 +214,7 @@
 				656B3EF1217F315E00F2BDE6 /* NMCocoa.h */,
 				656B3EF2217F3A5C00F2BDE6 /* NMMacro.h */,
 				656B3F04217F4AAC00F2BDE6 /* NMPrefixHeader.pch */,
-				656B3EDA217DBF2200F2BDE6 /* Widget */,
+				4DF3648F217F62C20091F8DB /* Widget */,
 				656B3EAC217DA6C400F2BDE6 /* Category */,
 			);
 			path = Cocoa;
@@ -258,13 +271,6 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
-		656B3EDA217DBF2200F2BDE6 /* Widget */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Widget;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -287,8 +293,9 @@
 				656B3EFE217F3AAD00F2BDE6 /* NSDate+NMCocoa.h in Headers */,
 				656B3EFF217F3AAD00F2BDE6 /* NSError+NMCocoa.h in Headers */,
 				656B3F00217F3AAD00F2BDE6 /* NSFileManager+NMCocoa.h in Headers */,
-				656B3F01217F3AAD00F2BDE6 /* NSObject+NMCocoa.h in Headers */,
 				656B3F02217F3AAD00F2BDE6 /* NSString+NMCocoa.h in Headers */,
+				656B3F01217F3AAD00F2BDE6 /* NSObject+NMCocoa.h in Headers */,
+				4DF36492217F62C20091F8DB /* NMTextField.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +436,7 @@
 				656B3E87217DA41C00F2BDE6 /* main.m in Sources */,
 				656B3ED3217DBA7C00F2BDE6 /* NSError+NMCocoa.m in Sources */,
 				656B3EB2217DA86100F2BDE6 /* UIImageView+NMCocoa.m in Sources */,
+				4DF36493217F62C20091F8DB /* NMTextField.m in Sources */,
 				656B3EBE217DB4EF00F2BDE6 /* UIColor+NMCocoa.m in Sources */,
 				656B3EC1217DB53900F2BDE6 /* UIButton+NMCocoa.m in Sources */,
 				656B3EC4217DB87E00F2BDE6 /* NSAttributedString+NMCocoa.m in Sources */,
