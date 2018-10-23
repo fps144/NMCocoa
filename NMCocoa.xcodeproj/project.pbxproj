@@ -45,6 +45,7 @@
 		656B3F01217F3AAD00F2BDE6 /* NSObject+NMCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 656B3EDB217DC2F800F2BDE6 /* NSObject+NMCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		656B3F02217F3AAD00F2BDE6 /* NSString+NMCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 656B3EC5217DBA0300F2BDE6 /* NSString+NMCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		656B3F03217F3ACA00F2BDE6 /* NMMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 656B3EF2217F3A5C00F2BDE6 /* NMMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		656B3F05217F4AAC00F2BDE6 /* NMPrefixHeader.pch in Headers */ = {isa = PBXBuildFile; fileRef = 656B3F04217F4AAC00F2BDE6 /* NMPrefixHeader.pch */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,6 +112,7 @@
 		656B3EDC217DC2F800F2BDE6 /* NSObject+NMCocoa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NMCocoa.m"; sourceTree = "<group>"; };
 		656B3EF1217F315E00F2BDE6 /* NMCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NMCocoa.h; sourceTree = "<group>"; };
 		656B3EF2217F3A5C00F2BDE6 /* NMMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NMMacro.h; sourceTree = "<group>"; };
+		656B3F04217F4AAC00F2BDE6 /* NMPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NMPrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,7 +163,6 @@
 		656B3E76217DA41A00F2BDE6 /* NMCocoa */ = {
 			isa = PBXGroup;
 			children = (
-				656B3EA9217DA45100F2BDE6 /* Cocoa */,
 				656B3E77217DA41A00F2BDE6 /* AppDelegate.h */,
 				656B3E78217DA41A00F2BDE6 /* AppDelegate.m */,
 				656B3E7A217DA41A00F2BDE6 /* ViewController.h */,
@@ -171,6 +172,7 @@
 				656B3E82217DA41C00F2BDE6 /* LaunchScreen.storyboard */,
 				656B3E85217DA41C00F2BDE6 /* Info.plist */,
 				656B3E86217DA41C00F2BDE6 /* main.m */,
+				656B3EA9217DA45100F2BDE6 /* Cocoa */,
 			);
 			path = NMCocoa;
 			sourceTree = "<group>";
@@ -198,6 +200,7 @@
 			children = (
 				656B3EF1217F315E00F2BDE6 /* NMCocoa.h */,
 				656B3EF2217F3A5C00F2BDE6 /* NMMacro.h */,
+				656B3F04217F4AAC00F2BDE6 /* NMPrefixHeader.pch */,
 				656B3EDA217DBF2200F2BDE6 /* Widget */,
 				656B3EAC217DA6C400F2BDE6 /* Category */,
 			);
@@ -269,6 +272,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				656B3F05217F4AAC00F2BDE6 /* NMPrefixHeader.pch in Headers */,
 				656B3EF4217F3AAD00F2BDE6 /* NMCocoa.h in Headers */,
 				656B3F03217F3ACA00F2BDE6 /* NMMacro.h in Headers */,
 				656B3EF5217F3AAD00F2BDE6 /* UIButton+NMCocoa.h in Headers */,
@@ -608,6 +612,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 467H22CM6C;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/NMCocoa/Cocoa/NMPrefixHeader.pch";
 				INFOPLIST_FILE = NMCocoa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -625,6 +630,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 467H22CM6C;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/NMCocoa/Cocoa/NMPrefixHeader.pch";
 				INFOPLIST_FILE = NMCocoa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

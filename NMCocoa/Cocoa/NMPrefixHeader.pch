@@ -1,0 +1,16 @@
+//
+//  NMPrefixHeader.pch
+//  NMCocoa
+//
+//  Created by 南门 on 2018/10/23.
+//  Copyright © 2018年 南门. All rights reserved.
+//
+
+#ifndef NMPrefixHeader_pch
+#define NMPrefixHeader_pch
+
+#import "NMMacro.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* NMPrefixHeader_pch */

@@ -15,9 +15,15 @@
 
 @implementation ViewController
 
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     DebugLog(@"xxxx---xxxx");
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        <#code to be executed once#>
+    });
     // Do any additional setup after loading the view, typically from a nib.
 }
 
