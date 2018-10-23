@@ -26,7 +26,6 @@
 		656B3EC7217DBA0300F2BDE6 /* NSString+NMCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 656B3EC6217DBA0300F2BDE6 /* NSString+NMCocoa.m */; };
 		656B3ECA217DBA3D00F2BDE6 /* NSData+NMCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 656B3EC9217DBA3D00F2BDE6 /* NSData+NMCocoa.m */; };
 		656B3ECD217DBA4800F2BDE6 /* NSDate+NMCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 656B3ECC217DBA4800F2BDE6 /* NSDate+NMCocoa.m */; };
-		656B3ED0217DBA6700F2BDE6 /* NSDictionary+NMCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 656B3ECF217DBA6700F2BDE6 /* NSDictionary+NMCocoa.m */; };
 		656B3ED3217DBA7C00F2BDE6 /* NSError+NMCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 656B3ED2217DBA7C00F2BDE6 /* NSError+NMCocoa.m */; };
 		656B3ED6217DBA8D00F2BDE6 /* NSUserDefaults+NMCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 656B3ED5217DBA8D00F2BDE6 /* NSUserDefaults+NMCocoa.m */; };
 		656B3ED9217DBADF00F2BDE6 /* NSFileManager+NMCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 656B3ED8217DBADF00F2BDE6 /* NSFileManager+NMCocoa.m */; };
@@ -89,8 +88,6 @@
 		656B3EC9217DBA3D00F2BDE6 /* NSData+NMCocoa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+NMCocoa.m"; sourceTree = "<group>"; };
 		656B3ECB217DBA4800F2BDE6 /* NSDate+NMCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+NMCocoa.h"; sourceTree = "<group>"; };
 		656B3ECC217DBA4800F2BDE6 /* NSDate+NMCocoa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+NMCocoa.m"; sourceTree = "<group>"; };
-		656B3ECE217DBA6700F2BDE6 /* NSDictionary+NMCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+NMCocoa.h"; sourceTree = "<group>"; };
-		656B3ECF217DBA6700F2BDE6 /* NSDictionary+NMCocoa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+NMCocoa.m"; sourceTree = "<group>"; };
 		656B3ED1217DBA7C00F2BDE6 /* NSError+NMCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSError+NMCocoa.h"; sourceTree = "<group>"; };
 		656B3ED2217DBA7C00F2BDE6 /* NSError+NMCocoa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSError+NMCocoa.m"; sourceTree = "<group>"; };
 		656B3ED4217DBA8D00F2BDE6 /* NSUserDefaults+NMCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+NMCocoa.h"; sourceTree = "<group>"; };
@@ -199,8 +196,6 @@
 				656B3EC9217DBA3D00F2BDE6 /* NSData+NMCocoa.m */,
 				656B3ECB217DBA4800F2BDE6 /* NSDate+NMCocoa.h */,
 				656B3ECC217DBA4800F2BDE6 /* NSDate+NMCocoa.m */,
-				656B3ECE217DBA6700F2BDE6 /* NSDictionary+NMCocoa.h */,
-				656B3ECF217DBA6700F2BDE6 /* NSDictionary+NMCocoa.m */,
 				656B3ED1217DBA7C00F2BDE6 /* NSError+NMCocoa.h */,
 				656B3ED2217DBA7C00F2BDE6 /* NSError+NMCocoa.m */,
 				656B3ED7217DBADF00F2BDE6 /* NSFileManager+NMCocoa.h */,
@@ -393,7 +388,6 @@
 				656B3EC1217DB53900F2BDE6 /* UIButton+NMCocoa.m in Sources */,
 				656B3EC4217DB87E00F2BDE6 /* NSAttributedString+NMCocoa.m in Sources */,
 				656B3EBB217DB44E00F2BDE6 /* UIFont+NMCocoa.m in Sources */,
-				656B3ED0217DBA6700F2BDE6 /* NSDictionary+NMCocoa.m in Sources */,
 				656B3E79217DA41A00F2BDE6 /* AppDelegate.m in Sources */,
 				656B3EC7217DBA0300F2BDE6 /* NSString+NMCocoa.m in Sources */,
 				656B3EB8217DAB8400F2BDE6 /* UIImage+NMCocoa.m in Sources */,

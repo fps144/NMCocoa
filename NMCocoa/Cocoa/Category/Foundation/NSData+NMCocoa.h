@@ -13,16 +13,16 @@ NS_ASSUME_NONNULL_BEGIN
 @interface NSData (NMCocoa)
 
 /**
- * Returns an NSData object from base64 encoded string
+ * 通过已经过base64编码的字符串返回NSData对象
  *
- * @param base64EncodedString The encoded string
+ * @param base64EncodedString 已经过base64编码的字符串
  */
 + (NSData *)dataWithBase64EncodedString:(NSString *)base64EncodedString;
 
 /**
- * Returns an NSString object for base64 encoded.
+ * 将NSData对象转为base64编码的字符串
  */
-+ (NSString *)base64EncodedString;
+- (NSString *)base64EncodedString;
 
 @end
 

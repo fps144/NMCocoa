@@ -14,24 +14,24 @@ NS_ASSUME_NONNULL_BEGIN
 @interface NSAttributedString (NMCocoa)
 
 /**
- * Returns an NSAttributedString object.
+ * 返回NSAttributedString对象.
  *
- * @param string Source string
- * @param font   Source string's font
- * @param color  Source string's color
+ * @param string 源字符串
+ * @param font   源字符串的字体
+ * @param color  源字符串的颜色
  */
 + (NSAttributedString *)attributeStringWithString:(NSString *)string
                                              font:(UIFont *)font
                                             color:(UIColor *)color;
 
 /**
- * Returns an NSAttributedString object.
+ * 返回NSAttributedString对象.
  *
- * @param string          Source string
- * @param highlightString Highlight string in source string
- * @param stringColor     Source string's color
- * @param highlightColor  Highlight string's color
- * @param font            Source String's color
+ * @param string          源字符串
+ * @param highlightString 源字符串中需要高亮的子串
+ * @param stringColor     源字符串的颜色
+ * @param highlightColor  子串的颜色
+ * @param font            源字符串和子串的字体
  */
 + (NSAttributedString *)attributedStringWithString:(NSString *)string
                                    highlightString:(NSString *)highlightString
