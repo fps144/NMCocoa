@@ -15,13 +15,28 @@
 
 @implementation ViewController
 
++ (void)load {
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        [self hookInstanceMethod:@selector(viewDidLoad) with:@selector(h_viewDidLoad)];
+        [self hookClassMethod:@selector(superclass) with:@selector(h_superclass)];
+    });
+}
 
++ (Class)h_superclass {
+    DebugLog(@"hook_class");
+    return nil;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    DebugLog(@"xxxx---xxxx");
+    DebugLog(@"original_instance");
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (void)h_viewDidLoad {
+    DebugLog(@"hook_instance");
+    DebugLog(@"%@", [ViewController superclass]);
+}
 
 @end

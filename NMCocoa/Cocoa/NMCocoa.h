@@ -12,7 +12,6 @@
 #import "NSAttributedString+NMCocoa.h"
 #import "NSData+NMCocoa.h"
 #import "NSDate+NMCocoa.h"
-#import "NSError+NMCocoa.h"
 #import "NSFileManager+NMCocoa.h"
 #import "NSObject+NMCocoa.h"
 #import "NSString+NMCocoa.h"
