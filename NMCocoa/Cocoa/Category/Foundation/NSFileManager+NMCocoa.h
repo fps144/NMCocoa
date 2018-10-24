@@ -45,7 +45,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (BOOL)clearCaches;
 
 /**
- * 返回给定路径的文件大小(文件不存在则返回-1)
+ * 返回给定路径的文件大小(文件不存在则返回 FILE_NOT_EXIST)
  *
  * @param filePath 文件路径
  */
