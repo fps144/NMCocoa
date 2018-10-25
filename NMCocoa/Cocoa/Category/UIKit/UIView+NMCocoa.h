@@ -12,6 +12,18 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIView (NMCocoa)
 
+@property(nonatomic, strong) UIViewController *vc; ///< 当前view的控制器
+
+/**
+ * 从当前的视图层级结构中生成一张快照
+ */
+- (nullable UIImage *)snapshotImage;
+
+/**
+ * 从当前的视图层级结构中生成一张快照的PDF
+ */
+- (nullable NSData *)snapshotPDF;
+
 @end
 
 NS_ASSUME_NONNULL_END
