@@ -47,14 +47,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (nullable UIImage *)imageByResizeToSize:(CGSize)size;
 
 /**
- * 生成一张可定制size及contentMode的新图(scale与原图相等)
- *
- * @param size        自定义size(非无限大)
- * @param contentMode contentMode.
- */
-- (nullable UIImage *)imageByResizeToSize:(CGSize)size contentMode:(UIViewContentMode)contentMode;
-
-/**
  * 生成一张带圆角的新图
  *
  * @param radius 圆角半径

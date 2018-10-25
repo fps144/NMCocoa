@@ -63,10 +63,6 @@
     return image;
 }
 
-//- (UIImage *)imageByResizeToSize:(CGSize)size contentMode:(UIViewContentMode)contentMode {
-//
-//}
-
 - (UIImage *)imageByRoundCornerRadius:(CGFloat)radius {
     return [self imageByRoundCornerRadius:radius borderWidth:0 borderColor:nil];
 }
