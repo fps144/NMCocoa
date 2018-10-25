@@ -11,14 +11,4 @@
 
 #import <UIKit/UIKit.h>
 
-static inline CGFloat stringHeight(UIFont *font, CGFloat width)
-{
-    
-}
-
-static inline CGFloat stringWidth(UIFont *font)
-{
-    
-}
-
 #endif /* NMFunction_h */
