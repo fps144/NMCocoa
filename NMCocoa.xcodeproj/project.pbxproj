@@ -18,7 +18,6 @@
 		656B3E91217DA41C00F2BDE6 /* NMCocoaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 656B3E90217DA41C00F2BDE6 /* NMCocoaTests.m */; };
 		656B3E9C217DA41C00F2BDE6 /* NMCocoaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 656B3E9B217DA41C00F2BDE6 /* NMCocoaUITests.m */; };
 		656B3EAF217DA84800F2BDE6 /* UIView+NMCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 656B3EAE217DA84800F2BDE6 /* UIView+NMCocoa.m */; };
-		656B3EB2217DA86100F2BDE6 /* UIImageView+NMCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 656B3EB1217DA86100F2BDE6 /* UIImageView+NMCocoa.m */; };
 		656B3EB5217DA8A800F2BDE6 /* UIViewController+NMCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 656B3EB4217DA8A800F2BDE6 /* UIViewController+NMCocoa.m */; };
 		656B3EB8217DAB8400F2BDE6 /* UIImage+NMCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 656B3EB7217DAB8400F2BDE6 /* UIImage+NMCocoa.m */; };
 		656B3EBB217DB44E00F2BDE6 /* UIFont+NMCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 656B3EBA217DB44E00F2BDE6 /* UIFont+NMCocoa.m */; };
@@ -35,7 +34,6 @@
 		656B3EF6217F3AAD00F2BDE6 /* UIColor+NMCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 656B3EBC217DB4EF00F2BDE6 /* UIColor+NMCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		656B3EF7217F3AAD00F2BDE6 /* UIFont+NMCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 656B3EB9217DB44E00F2BDE6 /* UIFont+NMCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		656B3EF8217F3AAD00F2BDE6 /* UIImage+NMCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 656B3EB6217DAB8400F2BDE6 /* UIImage+NMCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		656B3EF9217F3AAD00F2BDE6 /* UIImageView+NMCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 656B3EB0217DA86100F2BDE6 /* UIImageView+NMCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		656B3EFA217F3AAD00F2BDE6 /* UIView+NMCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 656B3EAD217DA84800F2BDE6 /* UIView+NMCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		656B3EFB217F3AAD00F2BDE6 /* UIViewController+NMCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 656B3EB3217DA8A800F2BDE6 /* UIViewController+NMCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		656B3EFC217F3AAD00F2BDE6 /* NSAttributedString+NMCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 656B3EC2217DB87E00F2BDE6 /* NSAttributedString+NMCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -87,8 +85,6 @@
 		656B3E9D217DA41C00F2BDE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		656B3EAD217DA84800F2BDE6 /* UIView+NMCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+NMCocoa.h"; sourceTree = "<group>"; };
 		656B3EAE217DA84800F2BDE6 /* UIView+NMCocoa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+NMCocoa.m"; sourceTree = "<group>"; };
-		656B3EB0217DA86100F2BDE6 /* UIImageView+NMCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+NMCocoa.h"; sourceTree = "<group>"; };
-		656B3EB1217DA86100F2BDE6 /* UIImageView+NMCocoa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+NMCocoa.m"; sourceTree = "<group>"; };
 		656B3EB3217DA8A800F2BDE6 /* UIViewController+NMCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NMCocoa.h"; sourceTree = "<group>"; };
 		656B3EB4217DA8A800F2BDE6 /* UIViewController+NMCocoa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NMCocoa.m"; sourceTree = "<group>"; };
 		656B3EB6217DAB8400F2BDE6 /* UIImage+NMCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+NMCocoa.h"; sourceTree = "<group>"; };
@@ -249,8 +245,6 @@
 				656B3EBA217DB44E00F2BDE6 /* UIFont+NMCocoa.m */,
 				656B3EB6217DAB8400F2BDE6 /* UIImage+NMCocoa.h */,
 				656B3EB7217DAB8400F2BDE6 /* UIImage+NMCocoa.m */,
-				656B3EB0217DA86100F2BDE6 /* UIImageView+NMCocoa.h */,
-				656B3EB1217DA86100F2BDE6 /* UIImageView+NMCocoa.m */,
 				656B3EAD217DA84800F2BDE6 /* UIView+NMCocoa.h */,
 				656B3EAE217DA84800F2BDE6 /* UIView+NMCocoa.m */,
 				656B3EB3217DA8A800F2BDE6 /* UIViewController+NMCocoa.h */,
@@ -283,7 +277,6 @@
 				656B3EF6217F3AAD00F2BDE6 /* UIColor+NMCocoa.h in Headers */,
 				656B3EF7217F3AAD00F2BDE6 /* UIFont+NMCocoa.h in Headers */,
 				656B3EF8217F3AAD00F2BDE6 /* UIImage+NMCocoa.h in Headers */,
-				656B3EF9217F3AAD00F2BDE6 /* UIImageView+NMCocoa.h in Headers */,
 				656B3EFA217F3AAD00F2BDE6 /* UIView+NMCocoa.h in Headers */,
 				656B3EFB217F3AAD00F2BDE6 /* UIViewController+NMCocoa.h in Headers */,
 				656B3EFC217F3AAD00F2BDE6 /* NSAttributedString+NMCocoa.h in Headers */,
@@ -431,7 +424,6 @@
 				656B3E7C217DA41A00F2BDE6 /* ViewController.m in Sources */,
 				656B3ED9217DBADF00F2BDE6 /* NSFileManager+NMCocoa.m in Sources */,
 				656B3E87217DA41C00F2BDE6 /* main.m in Sources */,
-				656B3EB2217DA86100F2BDE6 /* UIImageView+NMCocoa.m in Sources */,
 				4DF36493217F62C20091F8DB /* NMTextField.m in Sources */,
 				656B3EBE217DB4EF00F2BDE6 /* UIColor+NMCocoa.m in Sources */,
 				656B3EC1217DB53900F2BDE6 /* UIButton+NMCocoa.m in Sources */,

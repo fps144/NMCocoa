@@ -10,4 +10,12 @@
 
 @implementation UIFont (NMCocoa)
 
++ (UIFont *)mediumFontOfSize:(CGFloat)size {
+    if (@available(iOS 8.2, *)) {
+        return  [UIFont systemFontOfSize:size weight:UIFontWeightMedium];
+    } else {
+        return  [UIFont fontWithName:@"HelveticaNeue-Medium" size:size];
+    }
+}
+
 @end

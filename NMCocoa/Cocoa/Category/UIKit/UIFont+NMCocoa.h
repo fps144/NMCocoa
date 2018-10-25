@@ -12,6 +12,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIFont (NMCocoa)
 
+/**
+ * 生成UIFont对象(字体: HelveticaNeue-Medium)
+ */
++ (nullable UIFont *)mediumFontOfSize:(CGFloat)size NS_AVAILABLE_IOS(8_2);
+
+
 @end
 
 NS_ASSUME_NONNULL_END
