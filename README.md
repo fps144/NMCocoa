@@ -1,2 +1,3 @@
 # NMCocoa
-## A lightweight but complete functional extension library.
+
+## A lightweight functional extension library.
