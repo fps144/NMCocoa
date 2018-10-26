@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   # Basic
   s.name             = 'NMCocoa'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'A lightweight extension library based on Objective-C.'
   s.description      = <<-DESC
                        Try to make life brilliant.
