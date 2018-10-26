@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        Try to make life brilliant.
                        DESC
-  s.homepage         = 'https://github.com/fps144/NMCocoa.git'
+  s.homepage         = 'https://github.com/fps144/NMCocoa'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Nanmen' => 'yusong1108@gmail.com' }
   s.source           = { :git => 'https://github.com/fps144/NMCocoa.git', :tag => s.version.to_s }

@@ -9,6 +9,8 @@
 #ifndef NMCocoa_h
 #define NMCocoa_h
 
+#import "NMMacro.h"
+
 #import "NSAttributedString+NMCocoa.h"
 #import "NSData+NMCocoa.h"
 #import "NSDate+NMCocoa.h"
