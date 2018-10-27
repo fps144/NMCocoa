@@ -3,7 +3,7 @@
 [![Github pod](https://img.shields.io/badge/pod-v1.0.1-blue.svg)](https://cocoapods.org/pods/NMCocoa)
 [![Github license](https://img.shields.io/github/license/fps144/NMCocoa.svg)](https://github.com/fps144/NMCocoa/blob/master/LICENSE)  
 
-**一个轻量级的功能型扩展库☕️**  
+**A lightweight functional extension library ☕️**  
 
 > 目前为止，NMCocoa主要以Category和.h file的形式包含了iOS开发中常用的**宏**及**功能型方法**，分类范围涉及UIKit和Foundation框架。  
 
