@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4DBDBD37218F0CDF00093DCB /* NMCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DBDBD35218F0CDF00093DCB /* NMCocoa.h */; };
-		4DBDBD38218F0CDF00093DCB /* NMCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBDBD36218F0CDF00093DCB /* NMCocoa.m */; };
+		4DBDBD3B218F452900093DCB /* NSTimer+NMCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DBDBD39218F452800093DCB /* NSTimer+NMCocoa.h */; };
+		4DBDBD3C218F452900093DCB /* NSTimer+NMCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBDBD3A218F452800093DCB /* NSTimer+NMCocoa.m */; };
 		4DF36492217F62C20091F8DB /* NMTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DF36490217F62C20091F8DB /* NMTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DF36493217F62C20091F8DB /* NMTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF36491217F62C20091F8DB /* NMTextField.m */; };
 		656B3E79217DA41A00F2BDE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 656B3E78217DA41A00F2BDE6 /* AppDelegate.m */; };
@@ -66,8 +66,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4DBDBD35218F0CDF00093DCB /* NMCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NMCocoa.h; sourceTree = "<group>"; };
-		4DBDBD36218F0CDF00093DCB /* NMCocoa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NMCocoa.m; sourceTree = "<group>"; };
+		4DBDBD39218F452800093DCB /* NSTimer+NMCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+NMCocoa.h"; sourceTree = "<group>"; };
+		4DBDBD3A218F452800093DCB /* NSTimer+NMCocoa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+NMCocoa.m"; sourceTree = "<group>"; };
 		4DF36490217F62C20091F8DB /* NMTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMTextField.h; sourceTree = "<group>"; };
 		4DF36491217F62C20091F8DB /* NMTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMTextField.m; sourceTree = "<group>"; };
 		656B3E74217DA41A00F2BDE6 /* NMCocoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NMCocoa.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -231,8 +231,8 @@
 				656B3EDC217DC2F800F2BDE6 /* NSObject+NMCocoa.m */,
 				656B3EC5217DBA0300F2BDE6 /* NSString+NMCocoa.h */,
 				656B3EC6217DBA0300F2BDE6 /* NSString+NMCocoa.m */,
-				4DBDBD35218F0CDF00093DCB /* NMCocoa.h */,
-				4DBDBD36218F0CDF00093DCB /* NMCocoa.m */,
+				4DBDBD39218F452800093DCB /* NSTimer+NMCocoa.h */,
+				4DBDBD3A218F452800093DCB /* NSTimer+NMCocoa.m */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -272,11 +272,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DBDBD3B218F452900093DCB /* NSTimer+NMCocoa.h in Headers */,
 				656B3F05217F4AAC00F2BDE6 /* NMPrefixHeader.pch in Headers */,
 				656B3F03217F3ACA00F2BDE6 /* NMMacro.h in Headers */,
 				656B3EF4217F3AAD00F2BDE6 /* NMCocoa.h in Headers */,
 				656B3EF5217F3AAD00F2BDE6 /* UIButton+NMCocoa.h in Headers */,
-				4DBDBD37218F0CDF00093DCB /* NMCocoa.h in Headers */,
 				656B3EF6217F3AAD00F2BDE6 /* UIColor+NMCocoa.h in Headers */,
 				656B3EF7217F3AAD00F2BDE6 /* UIFont+NMCocoa.h in Headers */,
 				656B3EF8217F3AAD00F2BDE6 /* UIImage+NMCocoa.h in Headers */,
@@ -425,7 +425,7 @@
 			files = (
 				656B3EDD217DC2F800F2BDE6 /* NSObject+NMCocoa.m in Sources */,
 				656B3E7C217DA41A00F2BDE6 /* ViewController.m in Sources */,
-				4DBDBD38218F0CDF00093DCB /* NMCocoa.m in Sources */,
+				4DBDBD3C218F452900093DCB /* NSTimer+NMCocoa.m in Sources */,
 				656B3ED9217DBADF00F2BDE6 /* NSFileManager+NMCocoa.m in Sources */,
 				656B3E87217DA41C00F2BDE6 /* main.m in Sources */,
 				4DF36493217F62C20091F8DB /* NMTextField.m in Sources */,

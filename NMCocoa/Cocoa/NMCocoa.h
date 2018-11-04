@@ -17,5 +17,6 @@
 #import "NSFileManager+NMCocoa.h"
 #import "NSObject+NMCocoa.h"
 #import "NSString+NMCocoa.h"
+#import "NSTimer+NMCocoa.h"
 
 #endif /* NMCocoa_h */
