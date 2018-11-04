@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface NMCocoa : NSTimer
 
 /**
- 一个不会引发循环引用的timer。（必要时需搭配weakSelf和strongSelf使用）
+ 一个不会引发循环引用的timer。（必要时需搭配 weakObj(self) 和 weakObj(self) 使用）
 
  @param interval 时间间隔
  @param repeats  是否重复
