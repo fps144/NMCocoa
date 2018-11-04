@@ -32,13 +32,30 @@
 + (className *)sharedInterface;
 
 #define Singleton_Implementation(className) \
-static className *instance; \
-+ (className *)sharedInterface { \
-    static dispatch_once_t onceToken; \
-    dispatch_once(&onceToken, ^{ \
-        instance = [[self alloc] init]; \
-    }); \
-    return instance; \
+static className *_instance; \
++ (id)allocWithZone:(struct _NSZone *)zone \
+{ \
+static dispatch_once_t onceToken; \
+dispatch_once(&onceToken, ^{ \
+_instance = [super allocWithZone:zone]; \
+}); \
+return _instance; \
+} \
+- (id)copyWithZone:(NSZone *)zone \
+{ \
+return _instance; \
+}\
+\
+- (id)mutableCopyWithZone:(NSZone *)zone { \
+return _instance; \
+}\
++ (className *)sharedInterface \
+{ \
+static dispatch_once_t onceToken; \
+dispatch_once(&onceToken, ^{ \
+_instance = [[self alloc] init]; \
+}); \
+return _instance; \
 }
 
 #pragma mark - System

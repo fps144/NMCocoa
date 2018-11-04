@@ -31,7 +31,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     DebugLog(@"original_instance");
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)h_viewDidLoad {
